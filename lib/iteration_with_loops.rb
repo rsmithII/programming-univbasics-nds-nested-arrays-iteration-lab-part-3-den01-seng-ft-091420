@@ -21,7 +21,7 @@ mixed_data_2 = [
     count += 1
   end
     while count < src.length do
-   puts mixed_data_2[0...2].join("")
+   puts mixed_data_2[0...2].join("") << new_array
     count += 1
   end
   
