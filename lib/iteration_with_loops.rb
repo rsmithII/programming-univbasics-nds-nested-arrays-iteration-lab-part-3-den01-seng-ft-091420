@@ -21,11 +21,7 @@ mixed_data_2 = [
     count += 1
   end
   
-  while count < src.length do
-   returned_array = mixed_data_2[0...2].join("")
-    returned_array
-    count += 1
-  end
+  output_array(mixed_data_2)
     new_array
 end
   # src will be an Array of Arrays of Strings and Integers
