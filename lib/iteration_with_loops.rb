@@ -1,6 +1,7 @@
 def join_nested_strings(src)
   count = 0
   new_array = []
+  result_array = []
   mixed_data_1 = [
   ["The", 4, "quick"],
   [-1, "brown", "fox", 30],
@@ -21,7 +22,7 @@ mixed_data_2 = [
   end
   
   while count < src.length do
-    new_array << mixed_data_2[0...2].join(" ")
+    result_array = mixed_data_2[0...2].join(" ")
   end
   new_array
 end
