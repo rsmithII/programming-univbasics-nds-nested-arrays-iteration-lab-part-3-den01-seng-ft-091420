@@ -19,6 +19,9 @@ mixed_data_2 = [
    new_array = mixed_data_1.join(" ")
     count += 1
   end
+  
+  while count < src.length do
+    
   new_array
 end
   # src will be an Array of Arrays of Strings and Integers
