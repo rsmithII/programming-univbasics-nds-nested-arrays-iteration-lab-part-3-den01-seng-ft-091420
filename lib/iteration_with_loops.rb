@@ -25,6 +25,7 @@ mixed_data_2 = [
     result_array = mixed_data_2[0...2].join(" ")
   end
   new_array
+  result_array
 end
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
