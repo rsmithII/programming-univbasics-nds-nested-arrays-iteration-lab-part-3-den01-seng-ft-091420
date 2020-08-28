@@ -23,8 +23,9 @@ mixed_data_2 = [
   
   while count < src.length do
    returned_array = mixed_data_2[0...2].join(" ")
-  end
     returned_array
+    count += 1
+  end
     new_array
 end
   # src will be an Array of Arrays of Strings and Integers
