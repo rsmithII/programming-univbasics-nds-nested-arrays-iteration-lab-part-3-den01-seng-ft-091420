@@ -1,7 +1,6 @@
 def join_nested_strings(src)
   count = 0
   new_array = []
-  result_array = []
   mixed_data_1 = [
   ["The", 4, "quick"],
   [-1, "brown", "fox", 30],
