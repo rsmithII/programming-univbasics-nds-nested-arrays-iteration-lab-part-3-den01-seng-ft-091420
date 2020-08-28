@@ -8,7 +8,7 @@ def join_nested_strings(src)
 ]
   
   while count < src.length do
-    new_array = mixed_data.delete(1)
+    
     count += 1
   end
 end
