@@ -20,7 +20,11 @@ mixed_data_2 = [
    new_array = mixed_data_1.join(" ")
     count += 1
   end
-  
+    while count < src.length do
+   returned_array = mixed_data_2[0...2].join("")
+    returned_array
+    count += 1
+  end
   output_array(mixed_data_2)
     new_array
 end
