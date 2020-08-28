@@ -17,11 +17,10 @@ mixed_data_2 = [
    mixed_data_1[1] = ["brown", "fox"]
    mixed_data_1[2] = ["studied", "Ruby"]
    new_array = mixed_data_1.join(" ")
-    count += 1
-  end
   
   while count < src.length do
     new_array << mixed_data_2[0...2].join(" ")
+  count += 1
   end
   new_array
 end
