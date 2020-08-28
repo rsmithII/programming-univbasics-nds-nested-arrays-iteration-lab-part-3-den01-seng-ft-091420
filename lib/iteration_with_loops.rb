@@ -8,7 +8,9 @@ def join_nested_strings(src)
 ]
   
   while count < src.length do
-   puts mixed_data.delete_at([0][1])
+   mixed_data[0] = ["The", "quick"]
+   mixed_data[1] = ["brown", "fox"]
+   mixed_data[2] = ["studied", "Ruby"]
     count += 1
   end
 end
