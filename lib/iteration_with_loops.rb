@@ -21,7 +21,7 @@ mixed_data_2 = [
   end
   
   while count < src.length do
-    
+    puts mixed_data_2.join(" ")
   new_array
 end
   # src will be an Array of Arrays of Strings and Integers
