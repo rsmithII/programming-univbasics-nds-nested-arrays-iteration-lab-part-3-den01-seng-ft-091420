@@ -21,9 +21,9 @@ mixed_data_2 = [
   end
   
   while count < src.length do
-    join_nested_strings = mixed_data_2[0...2].join(" ")
+    new_array << mixed_data_2[0...2].join(" ")
   end
-  new_array(join_nested_strings)
+  new_array
 end
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
