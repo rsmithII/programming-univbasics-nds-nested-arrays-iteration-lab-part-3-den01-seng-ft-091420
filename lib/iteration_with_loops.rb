@@ -1,6 +1,7 @@
 def join_nested_strings(src)
   count = 0
   new_array = []
+  returned_array = []
   mixed_data_1 = [
   ["The", 4, "quick"],
   [-1, "brown", "fox", 30],
@@ -21,9 +22,10 @@ mixed_data_2 = [
   end
   
   while count < src.length do
-    mixed_data_2[0...2].join(" ")
+   returned_array = mixed_data_2[0...2].join(" ")
   end
-  new_array
+    returned_array
+    new_array
 end
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
