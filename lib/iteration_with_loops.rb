@@ -9,7 +9,7 @@ def join_nested_strings(src)
     count += 1
   end
     while count < src.length do
-   puts mixed_data_2[0...2].join(" ") << new_array
+   puts .join(" ") << new_array
     count += 1
   end
   
