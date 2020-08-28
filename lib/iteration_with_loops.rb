@@ -9,7 +9,7 @@ def join_nested_strings(src)
   new_array = []
   
   while count < src.length do
-    mixed_data.delete(4, -1)
+    mixed_data.delete(1, 3)
     count += 1
 end
   # src will be an Array of Arrays of Strings and Integers
